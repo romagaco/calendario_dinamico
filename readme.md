@@ -23,8 +23,7 @@ Para ejecutar esta aplicación en tu entorno local, sigue estos sencillos pasos:
 
 1.  **Clonar el Repositorio:**
     ```bash
-    git clone [URL_DE_TU_REPOSITORIO]
-    cd nombre-del-proyecto
+    git clone https://github.com/romagaco/calendario_dinamico
     ```
 2.  **Abrir el Archivo:** Simplemente abre el archivo `index.html` en tu navegador web preferido.
 
@@ -51,9 +50,3 @@ La función **`dateDiff(d)`** es crucial para el contador.
 
 * Calcula la diferencia entre la fecha del evento (`d`) y la fecha actual (`today`).
 * Devuelve la diferencia en **días** (redondeando hacia arriba con `Math.ceil`) para mostrar los días completos restantes.
-
-## 📝 Mejoras Futuras Sugeridas
-
-* **Validación de Formato de Fecha:** Mejorar la validación para asegurar que la fecha seleccionada sea válida (aunque el input `type="date"` ya ayuda mucho).
-* **Notificaciones:** Implementar notificaciones cuando un evento está por ocurrir.
-* **Vista de Calendario:** Agregar una vista real de calendario (mes/día) en lugar de solo la lista.
